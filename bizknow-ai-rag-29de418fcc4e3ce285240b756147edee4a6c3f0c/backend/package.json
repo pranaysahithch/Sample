@@ -1,0 +1,24 @@
+{
+  "name": "bizknow-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend for BizKnow AI - no database RAG document assistant",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "reset": "node src/utils/resetData.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "^17.4.2",
+    "express": "latest",
+    "groq-sdk": "latest",
+    "mammoth": "latest",
+    "multer": "latest",
+    "pdf-parse": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "type": "commonjs"
+}
